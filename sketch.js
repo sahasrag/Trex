@@ -63,7 +63,8 @@ function setup() {
 
 function draw() {
   background(180);
-  
+  camera.position.x = trex.x;
+  camera.position.y = trex.y;
    text("Score: "+ count, 500,50);
   
   console.log(trex.y);  
